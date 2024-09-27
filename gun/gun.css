@@ -2,8 +2,6 @@
     font-family: "Bebas Neue";
 }
  
-  
-
 
 body{
     margin: 0;
@@ -42,27 +40,22 @@ body{
 
 
 .ficheproduit {
-    
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
-   
 }
+
 .mainpic{
-   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: solid rgb(255, 255, 255) 4px;
     height: 500px;
-    
-  
-
-    
 }
+
 .mainpic p{
     background-color: black;
     width: 100%;
@@ -72,19 +65,14 @@ body{
     margin-bottom: 0px;
     color: white;
     padding-top: 20px;
-    
-   
 }
+
 .bottompic {
     display: flex;
     flex-direction: row;
     border-bottom: #000000;
-    
 }
 
-.bottompic p {
-
-}
 .bottompic img{
     display: flex;
     flex-direction: row;
@@ -93,7 +81,6 @@ body{
 }
 
 .description {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     display: flex;
@@ -103,23 +90,12 @@ body{
     color: black;
     font-size: 26px;
     padding-top: 100px;
-    
 }   
 
-.description h2{
-
-}
 .main{
-
     display: grid;
     grid-template-columns: 1fr 1fr;
-   
 }
-
-.bouton1 {
-
-
-} 
 
 .rectangles {
     display: grid;
@@ -129,7 +105,6 @@ body{
     border: solid;
     padding: 20px;
 }
-
 
 .r1, .r2, .r3 {
     display: flex;
@@ -143,19 +118,13 @@ body{
     box-sizing: border-box; 
 }
 
-
 .r1 {
     background-color: red;
     height: 90%;
     width: 90%;
 }
-.r1 p{
-    
-    
-}
 
 .r2 {
-    
     border-color: black;
     font-size: 13px;
     height: 90%;
@@ -167,12 +136,13 @@ body{
     height: 90%;
     width: 90%;
 }
+
 .r1 h1,.r2 h1,.r3 h1 {
     font-display: flex;
     padding-bottom:50px ;
     text-align: center;
-
 }
+
 .articles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -187,10 +157,7 @@ body{
     text-align: center;
     border: solid black 2px;
     border-width: 4px;
-    
-    
 }
-
 
 .guns {
     display: grid;
@@ -201,7 +168,47 @@ body{
     height: 200px;
     width: 200px;
 } 
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl
+    
+}
 
+.rating input {
+    display: none; 
+}
+
+.rating label {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+
+.rating input:checked ~ label {
+    color: gold;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
+.notations{
+    border: solid;
+    background-color:  #b4b4b4;
+}
+.notes{
+    display:flex
+}
+.star {
+    font-size: 25px; 
+    color: gold;
+}
+.starvide {
+    font-size: 25px; 
+}
 
 .footer{
     height: 100px;
