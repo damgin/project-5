@@ -63,7 +63,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 60px;
     padding: 30px;
-    back
 }
 .item {
     display: flex;
@@ -113,7 +112,7 @@ body{
     height: 40vh;
     text-align:left;
     background-image: url("./fond.png");
-    background-repeat:no-repeat;
+    background-size: cover;
     background-position: 90%;
     color: #ffffff;
 }
