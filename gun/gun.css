@@ -169,12 +169,13 @@ body{
     width: 200px;
 } 
 .rating {
+    padding-top: 200px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     direction: rtl
-    
 }
 
 .rating input {
@@ -200,7 +201,9 @@ body{
     background-color:  #b4b4b4;
 }
 .notes{
-    display:flex
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .star {
     font-size: 25px; 
@@ -219,7 +222,7 @@ body{
     align-items:center;
     text-align: center;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 
